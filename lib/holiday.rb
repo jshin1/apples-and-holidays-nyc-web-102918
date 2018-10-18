@@ -70,10 +70,6 @@ def all_winter_holiday_supplies(holiday_hash)
     if season == :winter
       winter_supplies = holiday.collect do |name, value|
         value
-      
-      winter_supplies.flatten
-      
-      end
     end
   end
 end
